@@ -1,0 +1,58 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic Body Style */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Fixed Navigation Bar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #b3cde0; /* Light pastel blue */
+  padding: 1em;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+/* Navigation Links */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul li a {
+  color: #f8b195; /* Light pastel pink */
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 0.5em 1em;
+  transition: color 0.3s ease;
+}
+
+/* Hover Effect */
+.navbar ul li a:hover {
+  color: #f67280; /* Medium pastel pink */
+}
+
+/* Section Styling */
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
+#home { background-color: #e6f2ff; }     /* Very light pastel blue */
+#about { background-color: #f7e1e3; }    /* Very light pastel pink */
+#services { background-color: #dcedc8; } /* Very light pastel green */
+#contact { background-color: #fce4ec; }  /* Very light pastel peach */
+
+/* Change Navbar Background Color on Scroll */
+.scrolled {
+  background-color: #6497b1; /* Slightly darker pastel blue */
+}
